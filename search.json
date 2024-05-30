@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html#models",
+    "href": "index.html#models",
+    "title": "On using Mimir",
+    "section": "Models",
+    "text": "Models\n\n\n\nModel\nParams\nInput\nOutput\nMax context\nTraining data\n\n\n\n\ngpt-4o\n1.7T\ntext,image\ntext\n128K\nOct 2023\n\n\ngpt-4\n1.7T\ntext,image\ntext\n128K\nDec 2023\n\n\ngpt-3.5\n175B\ntext\ntext\n16K\nSep 2021\n\n\ngpt-2\n1.5B\ntext\ntext\n1K\nOct 2019\n\n\n\nStandard context windows: gpt-3.5 (4K), gpt-4 (8K), gpt-4o (8K)\nGPT models documentation"
+  },
+  {
+    "objectID": "index.html#model-variants",
+    "href": "index.html#model-variants",
+    "title": "On using Mimir",
+    "section": "Model variants",
+    "text": "Model variants\n\n\n\n\n\n\n\nModel\nDescription\n\n\n\n\ngpt-3.5\nStandard model\n\n\ngpt-3.5-turbo\nOptimized for speed & cost, for rapid interactions such as chat\n\n\ngpt-3.5-16k\nExtended context window of 16K tokens\n\n\ngpt-3.5-instruct\nFine tuned to follow instructions more accurately\n\n\ngpt-3.5-preview\nExperimental early release"
+  },
+  {
+    "objectID": "index.html#pricing",
+    "href": "index.html#pricing",
+    "title": "On using Mimir",
+    "section": "Pricing",
+    "text": "Pricing\n\n\n\n\n\nModel\nInput_cost\nOutput_cost\n\n\n\n\ngpt-4o\n5.0\n15.0\n\n\ngpt-4-turbo\n10.0\n30.0\n\n\ngpt-4\n30.0\n60.0\n\n\ngpt-4-32k\n60.0\n120.0\n\n\ngpt-3.5-turbo-16k-0613\n3.0\n4.0\n\n\ngpt-3.5-turbo-instruct\n1.5\n2.0\n\n\ngpt-3.5-turbo-0125\n0.5\n1.5\n\n\n\n\n\n\n\nPrice in USD per 1 million tokens"
+  },
+  {
+    "objectID": "index.html#settings",
+    "href": "index.html#settings",
+    "title": "On using Mimir",
+    "section": "Settings",
+    "text": "Settings"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "On using Mimir",
+    "section": "",
+    "text": "Temperature\n\n\nControls randomness/creativity, Range 1-2\nClose to 0: Deterministic and predictable, For factual responses\nDefault 1: Balanced\nClose to 2: More random, diverse, for brain storming, story telling etc."
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "On using Mimir",
+    "section": "",
+    "text": "Top P (Nucleus sampling)\n\n\nLimits output by selecting top tokens up to cumulative probability P\nRange 0-1\nDefault 1: Broader range of tokens considered, more variance, creative writing\nLower values: Fewer tokens considered, more focused, consistent text"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "On using Mimir",
+    "section": "",
+    "text": "Frequency penalty\n\nPenalizes frequent tokens to reduce repetition in generated text\nRange -2 to 2, Default 0\n&gt;0: Avoid repeating words or phrases. Output more varied but potentially less cohesive, more creative writing\n&lt;0: Repeat words/phrases more often, more coherent but risk of redundancy. Technical writing\n\n\nPresence penalty\n\nEncourages new concepts by penalizing previously used tokens\nRange -2 to 2, Default 0\n&gt;0: Likely to introduce new topics making the output diverse and wide-ranging\n&lt;0: Less compelled to introduce new topics, maintain focus on a specific subject. Good for detailed explanations, essays, instructions\n\n\n\nCan be saved as preset in Mimir."
+  },
+  {
+    "objectID": "index.html#use-cases",
+    "href": "index.html#use-cases",
+    "title": "On using Mimir",
+    "section": "Use cases",
+    "text": "Use cases\n\nCoding assistance\nLiterature search and summarization\nDiscussion partner\nAutomating routine tasks"
+  }
+]
